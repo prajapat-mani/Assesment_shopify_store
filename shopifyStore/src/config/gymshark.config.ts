@@ -1,0 +1,57 @@
+import { TenantConfig } from '../types/tenant';
+
+export const gymsharkConfig: TenantConfig = {
+  id: 'gymshark',
+  name: 'GYMSHARK',
+  tagline: 'CONDITIONING IS EVERYTHING',
+  badgeText: 'SOFTSENSE™ COLLECTION',
+  currency: 'USD',
+  currencySymbol: 'US$',
+  heroImage: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1200&auto=format&fit=crop',
+  welcomeImage: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop',
+  theme: {
+    dark: false,
+    colors: {
+      primary: '#000000',
+      onPrimary: '#FFFFFF',
+      secondary: '#2563EB',
+      background: '#FFFFFF',
+      surface: '#F6F6F6',
+      card: '#FFFFFF',
+      textPrimary: '#111111',
+      textSecondary: '#707072',
+      border: '#E8E8E8',
+      accent: '#000000',
+      error: '#EF4444',
+      success: '#10B981',
+      tagBackground: 'rgba(255, 255, 255, 0.92)',
+      tagText: '#111111',
+      outOfStock: '#8E8E93',
+    },
+    typography: {
+      titleFont: 'System',
+      bodyFont: 'System',
+      brandTransform: 'none',
+      letterSpacing: 0.3,
+    },
+    radii: {
+      sm: 2,
+      md: 4,
+      lg: 6,
+      button: 2,
+      pill: 999,
+    },
+  },
+  features: {
+    showReviews: true,
+    showLoyaltyRewards: false,
+    showCategoryFilters: true,
+    showHeroBanner: true,
+    freeShippingThreshold: 75,
+  },
+  mockedThirdParty: {
+    type: 'reviews',
+    title: 'Yotpo Reviews Engine',
+    description: 'Verified Athlete Ratings & Reviews API',
+  },
+};

@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Node / Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Android Builds & Secrets
+shopifyStore/android/.gradle/
+shopifyStore/android/build/
+shopifyStore/android/app/build/
+shopifyStore/android/.cxx/
+shopifyStore/android/.kotlin/
+shopifyStore/android/local.properties
+*.iml
+.idea/
+
+# iOS Builds & Pods
+shopifyStore/ios/Pods/
+shopifyStore/ios/build/
+shopifyStore/ios/*.xcworkspace/xcuserdata
+shopifyStore/ios/*.xcodeproj/xcuserdata
+
+# Binary Releases / Large APKs
+*.apk
+*.aab
+
+# Temp / Bundles
+*.jsbundle
